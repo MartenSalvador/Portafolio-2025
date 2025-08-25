@@ -73,7 +73,7 @@ hover #A6FF00
 */
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .proyecto-li {
         flex-direction: column;
         align-items: center;

@@ -15,9 +15,9 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1); 
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 0 30px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .contacto-form{
@@ -28,9 +28,9 @@
 }
 
 .contacto-input{
-    font-size: 20px;
+    font-size: 15px;
     width: 500px;
-    height: 30px;
+    height: 20px;
     margin: 0 5px 5px 5px;
     border-radius: 5px;
     border: 1px solid #f1f1f1;
@@ -38,7 +38,7 @@
     padding: 10px;
 }
 .mensaje{
-    height: 150px;
+    height: 100px;
 }
 
 .contacto-boton{
@@ -49,7 +49,17 @@
     text-shadow:  1px 1px 0 #2e343b96;
 
 }
-
+.container-mensaje-enviado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-mensaje-enviado{
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 @media (max-width: 600px) {
     .contacto-input{
         width: 90%;
