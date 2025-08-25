@@ -1,6 +1,6 @@
 import '../estilos/Formacion.css'
 import alura from '../assets/alura.png';
-import freecodecamp from '../assets/freecodecamp.png';
+import freecodecamp from '../assets/freeCodeCamp.png';
 import hapyprogrammer from '../assets/happyprogrammer.jpg';
 import ademass from '../assets/ademass.png';
 const imagenes = {
