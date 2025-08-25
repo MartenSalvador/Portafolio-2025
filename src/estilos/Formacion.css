@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+}
+
+.formacion-li{
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: rgba(34, 32, 32, 0.1); 
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    color: #f1f1f1;
+    transition: transform 0.3s ease;
+  display: inline-block;
+}
+.formacion-li:hover{
+    color: #fff;
+  transform: scale(1.05);
+  border:1px solid #D6BFAF;
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.formacion-imagen{
+    width: 150px;
+}
+
+@media (max-width: 450px) {
+    .formacion-li {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+    .formacion-imagen{
+        width: 100px;
+    }
+}

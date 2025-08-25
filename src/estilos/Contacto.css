@@ -1,0 +1,61 @@
+.contacto-container{
+   background-image: url('/src/assets/aconcadesen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 0 30px 30px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-input{
+    font-size: 20px;
+    width: 500px;
+    height: 30px;
+    margin: 0 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    font-family: "Inter", sans-serif ;
+    padding: 10px;
+}
+.mensaje{
+    height: 150px;
+}
+
+.contacto-boton{
+    margin: 10px 0 0 0 ;
+}
+
+.contacto-titulo{
+    text-shadow:  1px 1px 0 #2e343b96;
+
+}
+
+@media (max-width: 600px) {
+    .contacto-input{
+        width: 90%;
+        font-size: 16px;
+    }
+    .mensaje{
+        height: 100px;
+    }
+}

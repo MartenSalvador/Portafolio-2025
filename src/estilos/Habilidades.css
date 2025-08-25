@@ -1,0 +1,45 @@
+
+.container-logo-home{
+  overflow: hidden;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.marquee-wrapper {
+  display: flex;
+  flex-direction: row;
+  animation: marquee 20s linear infinite;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.habilidades-lista {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 40px;
+  text-align: center;
+  margin: 30px; 
+  padding: 0;
+  white-space: nowrap;
+
+}
+
+li{
+
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
+/*
+@keyframes marquee mueve el contenido de 0 a -50% para que la segunda lista entre justo cuando la primera termina.
+*/
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

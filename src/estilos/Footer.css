@@ -1,0 +1,63 @@
+.container-footer{
+    width: 100vw;
+    background: #222; 
+    color: #fff;
+    padding: 15px 0 0 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+
+.p-link{
+    font-size: 12px;
+}
+.link-footer{
+    color: #f1f1f1;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+
+}
+.link-footer:hover{
+    transform: scale(1.2);
+    color: #344862;
+
+}
+
+.redes-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.logo-redes{
+    font-size: 25px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    color: #fff;
+}
+
+.logo-redes:hover{
+    color: #344862;
+    transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .container-footer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .redes-footer{
+        justify-content: center;
+    }
+}

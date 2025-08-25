@@ -1,0 +1,14 @@
+
+header{
+    display: flex;
+    justify-content: end;
+
+}
+
+@media (max-width: 600px) {
+    header{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+}
