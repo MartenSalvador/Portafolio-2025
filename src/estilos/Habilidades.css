@@ -1,7 +1,7 @@
 
 .container-logo-home{
   overflow: hidden;
-  width: 40%;
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -42,4 +42,22 @@ li{
   100% {
     transform: translateX(-50%);
   }
+}
+
+@media (max-width: 768px) {
+  .marquee-wrapper {
+    animation: marquee 10s linear infinite;
+  }
+  .container-logo-home {
+    width: 80%;
+  }
+  .habilidades-lista {
+    gap: 20px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+
 }

@@ -20,46 +20,22 @@ a {
   text-decoration: inherit;
 }
 main {
-  width: 100%;
+
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
 }
 
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-.layout {
-  
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.main-content {
-  flex: 1;
-}
 
 
 body {
+  background-image: url('../assets/aconcadesen.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-width: 320px;
-  min-height: 100vh;
-  
-  overflow-x: hidden;
-  height: 100%;
-
-
 }
 
 h1 {

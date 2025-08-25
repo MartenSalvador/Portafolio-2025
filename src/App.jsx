@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './componentes/Header';
 import Home from './componentes/Home';
 import Sobremi from './componentes/Sobremi'
 import Experiencia from './componentes/Experiencia';
