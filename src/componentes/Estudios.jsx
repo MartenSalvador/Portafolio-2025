@@ -12,7 +12,7 @@ function Estudios(){
                 Estudios
             </h1>
             <div className="estudios-container-tarjetas">
-                <a href="">
+            <a href="">
                  <Formacion 
                 texto="underc0de | Happyprogrammer"
                 imagen="hapyprogrammer"

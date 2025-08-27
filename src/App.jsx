@@ -6,7 +6,10 @@ import Contacto from './componentes/Contacto';
 import Footer from './componentes/Footer';
 import './App.css'
 import Estudios from './componentes/Estudios';
-
+import TarjetaExperiencia from './componentes/TarjetaProyecto';
+//proyectos
+import HotelAdmin from './componentes/HotelAdmin';
+import Troqueles from './componentes/Troqueles';
 
 function App() {
   
@@ -22,6 +25,9 @@ function App() {
             <Route path='/sobremi' element={<Sobremi />} />
             <Route path='/contacto' element={<Contacto />} />
             <Route path='/estudios' element={<Estudios />} />
+            <Route path='/tarjetaproyecto' element={<TarjetaExperiencia />} />
+            <Route path='/administrador' element={<HotelAdmin />} />
+            <Route path='/troqueles' element={<Troqueles />} />
           </Routes>
         </main>
       <Footer />

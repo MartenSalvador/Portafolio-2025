@@ -12,7 +12,7 @@ function Home() {
         <h2 className='home-subtitulo'>Frontend Developer</h2>
         <p className='home-descripcion'>Transformo ideas en interfaces claras y efectivas</p>
         <div className='home-botones'>
-          <Link className='home-boton proyectos' to='/contacto'>Ver Proyectos</Link>
+          <Link className='home-boton proyectos' to='/proyectos'>Ver Proyectos</Link>
           <Link className='home-boton' to='/contacto'>Contacto</Link>
         </div>
         
