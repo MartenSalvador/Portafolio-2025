@@ -1,14 +1,14 @@
 .container-footer{
     width: 100%;
-    background: #222; 
-    color: #fff;
+    color: #4b5563;
     padding: 15px 0 0 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-around;
-
+    
+  
 }
 
 
@@ -16,7 +16,7 @@
     font-size: 12px;
 }
 .link-footer{
-    color: #f1f1f1;
+    color: #4b5563;
     font-family: 'Krona One', sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -41,7 +41,7 @@
 .logo-redes{
     font-size: 25px;
     transition: transform 0.3s ease, font-size 0.3s ease;
-    color: #fff;
+    color: #4b5563;
 }
 
 .logo-redes:hover{

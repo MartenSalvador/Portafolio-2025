@@ -16,4 +16,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 importante!!!!!
+firebase deploy --only "hosting,database"
 para deployar nuevas versiones usar: firebase deploy --only "hosting,database"(porque firebase deploy solo deja error por la dataconect que es paga)

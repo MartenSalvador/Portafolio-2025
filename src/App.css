@@ -1,13 +1,8 @@
 
-h1{
-    font-family: sans-serif;
-    font-size: 40px;
-}
 .layout{
-    background-image: url('./assets/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
+    background-color: #fff;
     margin: 0;
     padding: 0;
+    
 }

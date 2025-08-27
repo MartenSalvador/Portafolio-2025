@@ -4,21 +4,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #090c0b;
     margin-top: 10px;
     border-radius: 10px;
     padding: 5px 40px;
     margin-top: 0;
     width: 100%;
     gap: 50px;
-    background-color: rgba(50, 39, 39, 0.203); 
 
 }
 
 .link-nav{
-    color: #f1f1f1;
+    color: #111;
     font-weight: 600;
-    text-shadow:  1px 1px 0 #8e9cad;
     font-size: 18px;
     font-family: "Inter" ;
     transition: transform 0.3s ease;
@@ -44,5 +41,18 @@
 
     .link-nav{
         font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-container{
+        gap: 10px;
+        padding: 5px 10px;
+    }
+
+    .link-nav{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
     }
 }

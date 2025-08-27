@@ -34,8 +34,9 @@ function Proyectos({ empresa, titulo, texto, deploy, imagen, repo }){
 
                     <div className='proyecto-tarjeta-container-img-dploy minicontainer'>
                         <div className='botonera-proyectos'>
-                            <a className='proyecto-boton' href={deploy} target='_blank' >Deploy</a>
                             <a className='proyecto-boton' href={repo} target='_blank' >Repositorio <FaSquareGithub /></a>
+                            <a className='proyecto-boton deploy' href={deploy} target='_blank' >Deploy</a>
+
                         </div>
                         
                         <img src={imagenes[imagen]}
