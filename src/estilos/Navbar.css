@@ -19,7 +19,7 @@
     color: #f1f1f1;
     font-weight: 600;
     text-shadow:  1px 1px 0 #8e9cad;
-    font-size: 30px;
+    font-size: 18px;
     font-family: "Inter" ;
     transition: transform 0.3s ease;
     display: inline-block;
@@ -43,6 +43,6 @@
     }
 
     .link-nav{
-        font-size: 24px;
+        font-size: 14px;
     }
 }

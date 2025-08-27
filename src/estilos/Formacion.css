@@ -7,30 +7,50 @@ ul{
     border-radius: 10px;
     background-color: rgba(34, 32, 32, 0.1); 
     width: 400px;
-    height: 200px;
+    overflow: hidden;
+    height: 170px;
     padding: 20px;
     color: #f1f1f1;
     transition: transform 0.3s ease;
-  display: inline-block;
+    display: inline-block;
+    
 }
 .formacion-li:hover{
     color: #fff;
-  transform: scale(1.05);
-  border:1px solid #D6BFAF;
-  background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.05);
+    border:1px solid #D6BFAF;
+    background-color: rgba(255, 255, 255, 0.1); 
+  
 }
 
 .formacion-imagen{
-    width: 150px;
+   width: auto;
+    height: 50px;
+    margin-top: 15px;
+
+}
+.li-subtitulo{
+    font-family: "Inter", sans-serif ;
+    font-size: 26px;
+    margin: 0;
+    text-shadow:  1px 1px 0 #2e343b96;
+    font-weight: 500;
+}
+.li-descripcion{
+    font-family: "Inter", sans-serif ;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+    text-shadow:  1px 1px 0 #2e343b96;
 }
 
 @media (max-width: 450px) {
     .formacion-li {
-        width: 90%;
+        width: 230px;
         height: auto;
         padding: 15px;
     }
     .formacion-imagen{
-        width: 100px;
+        height: 40px;
     }
 }

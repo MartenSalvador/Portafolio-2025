@@ -3,13 +3,14 @@
     border-radius: 10px;
     padding: 5px;
     background-color:#1e1e1e; 
-
 }
 
 
 .proyecto-li{
     display: flex;
     color: #e0e0e0;
+    flex-direction: column;
+    
     max-width: 700px;
 }
 
@@ -19,22 +20,29 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-
 }
-
+.minicontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botonera-proyectos{
+    display: flex;
+    gap: 30px;
+}
 .proyecto-empresa{
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     padding: 0;
     color: #e0e0e0;
-    text-align: center;
 }
 .proyecto-descripcion{
     font-size: 16px;
     margin: 0;
     color: #CCC;
-    text-align: center;
+    text-align: justify;
 }
 
 .proyecto-titulo{
@@ -63,6 +71,13 @@
     background-color: #1E90FF;
     transform: scale(1.05);
 }
+
+.proyecto-imagen{
+   
+    width: 500px;
+    margin-top: 15px;
+}
+
 /*
 botones #00BFFF
 hover #1E90FF
@@ -74,7 +89,7 @@ hover #A6FF00
 
 
 @media (max-width: 500px) {
-    .proyecto-li {
+    .proyecto-li{
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -86,4 +101,8 @@ hover #A6FF00
     .proyecto-tarjeta-container{
         width: 300px;
     }
+    .proyecto-imagen{
+   
+   width: 300px;
+}
 }

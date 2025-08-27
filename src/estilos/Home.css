@@ -8,21 +8,21 @@
 }
 
 .home-titulo{
-    font-size: 90px;
+    font-size: 48px;
     font-family: "Inter", sans-serif ;
-    margin: 50px 0;
+    margin: 70px 0 20px 0;
 }
 
 .home-subtitulo{
     font-family: "Inter", sans-serif ;
-    font-size: 40px;
+    font-size: 36px;
     margin: 0;
     text-shadow:  1px 1px 0 #2e343b96;
 
 }
 .home-descripcion{
     font-family: "Inter", sans-serif ;
-    font-size: 25px;
+    font-size: 36px;
     margin: 0;
     text-shadow:  1px 1px 0 #2e343b96;
 
@@ -32,15 +32,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 40px;
     text-shadow:  1px 1px 0 #2e343b96;
-
 }
 
 
 .home-boton-contacto{
-    font-size: 30px;
+    font-size: 18px;
     border: 1px solid #f1f1f1;
+    background-color: #344862;
     border-radius: 10px;
     padding: 10px;
     margin: 25px;
@@ -59,19 +58,19 @@
 
 @media (max-width: 768px) {
     .home-titulo{
-        font-size: 60px;
+        font-size: 36px;
     }
 
     .home-subtitulo{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .home-descripcion{
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .home-boton-contacto{
-        font-size: 24px;
+        font-size: 16px;
         padding: 8px;
         margin: 15px;
     }
@@ -89,24 +88,5 @@
         white-space: normal;
 
     }
-    .home-titulo{
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .home-subtitulo{
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .home-descripcion{
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .home-boton-contacto{
-        font-size: 20px;
-        padding: 6px;
-        margin: 10px;
-    }
+    
 }

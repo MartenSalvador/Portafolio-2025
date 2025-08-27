@@ -32,11 +32,14 @@ function Proyectos({ empresa, titulo, texto, deploy, imagen, repo }){
                         <p className='proyecto-descripcion'>{texto}</p>
                     </div>
 
-                    <div className='proyecto-tarjeta-container-img-dploy'>
-                        <a className='proyecto-boton' href={deploy} target='_blank' >Deploy</a>
-                        <a className='proyecto-boton' href={repo} target='_blank' >Repositorio <FaSquareGithub /></a>
+                    <div className='proyecto-tarjeta-container-img-dploy minicontainer'>
+                        <div className='botonera-proyectos'>
+                            <a className='proyecto-boton' href={deploy} target='_blank' >Deploy</a>
+                            <a className='proyecto-boton' href={repo} target='_blank' >Repositorio <FaSquareGithub /></a>
+                        </div>
+                        
                         <img src={imagenes[imagen]}
-                        className='formacion-imagen'  
+                        className='proyecto-imagen'  
                         alt='logo'/>
                     </div>
                     

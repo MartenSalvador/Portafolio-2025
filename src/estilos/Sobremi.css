@@ -23,7 +23,18 @@
   background-color: rgba(34, 32, 32, 0.1); 
   padding: 40px;
   border-radius: 15px;
-
+}
+.sobremi-subtitulo{
+   font-family: "Inter", sans-serif ;
+    font-size: 36px;
+    margin: 0;
+    text-shadow:  1px 1px 0 #2e343b96;
+}
+.sobremi-descripcion{
+    font-family: "Inter", sans-serif ;
+    font-size: 20px;
+    margin: 0;
+    text-shadow:  1px 1px 0 #2e343b96;
 }
 
 .yoni{
@@ -35,11 +46,17 @@
 @media (max-width: 768px) {
   .sobremi-contenido {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
   }
 
   .yoni {
     width: 200px;
     margin-bottom: 20px;
+  }
+  .sobremi-descripcion{
+    font-size: 16px;
+  }
+  .sobremi-subtitulo{
+    font-size: 28px;
   }
 }
