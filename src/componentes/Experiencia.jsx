@@ -17,12 +17,14 @@ function Experiencia(){
                 skills="React, JavaScript, CSS, HTML"
                 proyecto="Administrador de Tareas"
                 link="administrador"
+                imagen="hotel"
                 />
                 <TarjetaProyecto 
                 empresa="Imprenta Encabo SRL"
                 skills="React, JavaScript, CSS, HTML"
                 proyecto="Biblioteca de Troqueles"
                 link="troqueles"
+                imagen="troqueles"
                 />
             </div>
 

@@ -12,7 +12,7 @@ function Troqueles() {
             En principio habia realizado el desarrollo solamente con JavaScript donde la informacion se guardaba localmente, ahora se actualizó el programa con React y se conectó en Firebase para que puedan guardar los datos y lograr abrir la aplicación en cualquier dispositivo y no solamente en la computadora local."
             deploy="https://biblioteca-de-troqueles.web.app/"
             imagen="troqueles"
-            repo="https://github.com/MartenSalvador/Biblioteca-de-Troqueles-Encabo"
+            repo="Biblioteca-de-Troqueles-Encabo"
         />
         </div>
         
