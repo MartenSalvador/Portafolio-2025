@@ -10,7 +10,8 @@ import TarjetaExperiencia from './componentes/TarjetaProyecto';
 //proyectos
 import HotelAdmin from './componentes/HotelAdmin';
 import Troqueles from './componentes/Troqueles';
-
+import Glosario from './componentes/Glosario';
+import Numerosecreto from './componentes/Numerosecreto';
 function App() {
   
   return (
@@ -28,6 +29,9 @@ function App() {
             <Route path='/tarjetaproyecto' element={<TarjetaExperiencia />} />
             <Route path='/administrador' element={<HotelAdmin />} />
             <Route path='/troqueles' element={<Troqueles />} />
+            <Route path='/glosario' element={<Glosario />} />
+            <Route path='/numerosecreto' element={<Numerosecreto />} />
+
           </Routes>
         </main>
       <Footer />

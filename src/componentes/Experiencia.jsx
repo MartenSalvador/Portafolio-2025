@@ -28,9 +28,22 @@ function Experiencia(){
                 />
             </div>
 
-            <h1 className='experiencia-titulo'>Proyectos de bootcamps y cursos</h1>
-            <div className='experiencia-bootcamps'>
-                
+            <h1 className='experiencia-titulo'>Proyectos de cursos y bootcamps</h1>
+            <div className='experiencia-empresas'>
+                <TarjetaProyecto 
+                empresa="Challene Alura Latam"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Glosario de alemán"
+                link="glosario"
+                imagen="glosario"
+                />
+                <TarjetaProyecto 
+                empresa="Challene Alura Latam"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Numero Secreto"
+                link="numerosecreto"
+                imagen="numerosecreto"
+                />
             </div>
         </div> 
         </div>
