@@ -12,6 +12,11 @@ import HotelAdmin from './componentes/HotelAdmin';
 import Troqueles from './componentes/Troqueles';
 import Glosario from './componentes/Glosario';
 import Numerosecreto from './componentes/Numerosecreto';
+import Encriptador from './componentes/Encriptador';
+import Aluraflix from './componentes/Aluraflix';
+import Ppt from './componentes/Ppt';
+import Org from './componentes/Org';
+
 function App() {
   
   return (
@@ -31,6 +36,11 @@ function App() {
             <Route path='/troqueles' element={<Troqueles />} />
             <Route path='/glosario' element={<Glosario />} />
             <Route path='/numerosecreto' element={<Numerosecreto />} />
+            <Route path='/encriptador' element={<Encriptador />} />
+            <Route path='/aluraflix' element={<Aluraflix />} />
+            <Route path='/ppt' element={<Ppt />} />
+            <Route path='/org' element={<Org />} />
+
 
           </Routes>
         </main>

@@ -44,6 +44,34 @@ function Experiencia(){
                 link="numerosecreto"
                 imagen="numerosecreto"
                 />
+                <TarjetaProyecto 
+                empresa="Challene Alura Latam"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Encriptador de textos"
+                link="encriptador"
+                imagen="encriptador"
+                />
+                <TarjetaProyecto 
+                empresa="Challene Alura Latam"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Aluraflix"
+                link="aluraflix"
+                imagen="aluraflix"
+                />
+                <TarjetaProyecto 
+                empresa="Challene freeCodeCamp"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Piedra, papel o tijeras"
+                link="ppt"
+                imagen="PPT"
+                />
+                <TarjetaProyecto 
+                empresa="Challene Alura Latam"
+                skills="JavaScript, CSS, HTML"
+                proyecto="Organizador de roles"
+                link="org"
+                imagen="org"
+                />
             </div>
         </div> 
         </div>
