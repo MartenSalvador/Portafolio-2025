@@ -82,14 +82,29 @@
     .experiencia-titulo{
         font-size: 36px;
     }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media (max-width: 480px) {
+    .proyecto-container{
+        max-width: 300px;
+    }
+    .proyecto-descripcion{
+        max-width: 250px;
+        font-size: 14px;}
    .experiencia-titulo{
         font-size: 28px;
     }
     .experiencia-empresas{
         grid-template-columns: 1fr; 
         grid-template-rows: auto; 
+    }
+    .botonera-proyectos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px !important;
     }
 }
