@@ -9,7 +9,7 @@ import numerosecreto from '../assets/numerosecreto.png'
 import org from '../assets/org.png'
 import aluraflix from '../assets/aluraflix.png'
 import troqueles from '../assets/troqueles.png'
-
+import fiambreria from '../assets/fiambreria.png'
 const imagenes = {
     hotel,
     glosario,
@@ -18,7 +18,8 @@ const imagenes = {
     numerosecreto,
     org,
     aluraflix,
-    troqueles
+    troqueles,
+    fiambreria
 }
 function Proyectos({ empresa, titulo, texto, deploy, imagen, repo }){
     return(

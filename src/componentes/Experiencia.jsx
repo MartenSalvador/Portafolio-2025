@@ -13,6 +13,13 @@ function Experiencia(){
             
             <div className='experiencia-empresas'>
                 <TarjetaProyecto 
+                empresa="El Carmelo charcutería"
+                skills="React, JavaScript, CSS, HTML"
+                proyecto="Página corporativa"
+                link="fiambreria"
+                imagen="fiambreria"
+                />
+                <TarjetaProyecto 
                 empresa="Hotel The Niu Crusoe Bremen"
                 skills="React, JavaScript, CSS, HTML"
                 proyecto="Administrador de Tareas"

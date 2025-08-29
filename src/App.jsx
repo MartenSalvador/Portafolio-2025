@@ -16,14 +16,15 @@ import Encriptador from './componentes/Encriptador';
 import Aluraflix from './componentes/Aluraflix';
 import Ppt from './componentes/Ppt';
 import Org from './componentes/Org';
+import Fiambreria from './componentes/Fiambreria'
 
 function App() {
-  
+
   return (
     <Router >
-     
+
       <div className="layout">
-        
+
         <main className="main-content">
           <Routes>
             <Route path='/' element={<Home />} />
@@ -40,14 +41,16 @@ function App() {
             <Route path='/aluraflix' element={<Aluraflix />} />
             <Route path='/ppt' element={<Ppt />} />
             <Route path='/org' element={<Org />} />
+            <Route path='/fiambreria' element={<Fiambreria />} />
+
 
 
           </Routes>
         </main>
-      <Footer />
+        <Footer />
       </div>
-      
-      
+
+
     </Router>
   );
 }

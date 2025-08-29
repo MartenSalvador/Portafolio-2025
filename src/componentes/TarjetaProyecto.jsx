@@ -10,6 +10,7 @@ import PPT from '../assets/PPT.png';
 import org from '../assets/org.png';
 import aluraflix from '../assets/aluraflix.png';
 import encriptador from '../assets/encriptador.png';
+import fiambreria from '../assets/fiambreria.png'
 
 const imagenes = {
     hotel,
@@ -19,7 +20,8 @@ const imagenes = {
     PPT,
     org,
     aluraflix,
-    encriptador
+    encriptador,
+    fiambreria
 }
 
 
