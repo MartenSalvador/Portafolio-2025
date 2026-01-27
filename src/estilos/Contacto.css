@@ -32,7 +32,7 @@
     background-color: #fff;
     border: 1px solid #000;
     display: inline-block;
-
+    color: #111;
 }
 .contacto-input:focus{
     outline: none;
