@@ -16,17 +16,17 @@
     font-size: 12px;
 }
 .link-footer{
-    color: #4b5563;
+    color: #000;
     font-family: 'Krona One', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
     display: inline-block;
     transform-origin: center;
 
 }
 .link-footer:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     color: #344862;
 
 }

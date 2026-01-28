@@ -68,13 +68,21 @@ color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #5a5656;
+    border-radius: 15px;
+    background-color: #f5f3f3;
+    
 }
 .boton-mensaje-enviado{
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
     font-size: 20px;
-    width: 150px;
+    background-color: #4b5563;
+    color: #fff !important;
+}
+.boton-mensaje-enviado:hover{
+    background-color: #000;
 }
 @media (max-width: 600px) {
     .contacto-input{
