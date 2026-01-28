@@ -2,18 +2,21 @@ import '../estilos/Home.css'
 import Header from './Header';
 import { Link } from "react-router-dom";
 import Habilidades from './Habilidades'
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return ( 
+    
     <div className='home-container'  >
       <Header />
       <div className='home-contenido'>
         <h1 className='home-titulo'>Martín Salvador</h1>
         <h2 className='home-subtitulo'>Frontend Developer</h2>
-        <p className='home-descripcion'>Transformo ideas en interfaces claras y efectivas</p>
+        <p className='home-descripcion'>{t("home.description")}</p>
         <div className='home-botones'>
-          <Link className='home-boton proyectos' to='/proyectos'>Ver Proyectos</Link>
-          <Link className='home-boton' to='/contacto'>Contacto</Link>
+          <Link className='home-boton proyectos' to='/proyectos'>{t("home.btnProjects")}</Link>
+          <Link className='home-boton' to='/contacto'>{t("home.btnContact")}</Link>
         </div>
         
 

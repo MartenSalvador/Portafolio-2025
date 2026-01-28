@@ -10,7 +10,9 @@ import PPT from '../assets/PPT.png';
 import org from '../assets/org.png';
 import aluraflix from '../assets/aluraflix.png';
 import encriptador from '../assets/encriptador.png';
-import fiambreria from '../assets/fiambreria.png'
+import fiambreria from '../assets/fiambreria.png';
+import { useTranslation } from "react-i18next";
+
 
 const imagenes = {
     hotel,
@@ -26,6 +28,7 @@ const imagenes = {
 
 
 function TarjetaProyecto({ empresa, skills, proyecto, link, imagen }) {
+    const { t } = useTranslation();
     return (
         <div className='experiencia-tarjeta'>
 
@@ -33,12 +36,12 @@ function TarjetaProyecto({ empresa, skills, proyecto, link, imagen }) {
                 <Link to={`/${link}`} ><img className="experiencia-imagen" src={[imagenes[imagen]]} alt={`Miniatura del proyecto ${proyecto}`} /></Link>
 
                 <h2 className='experiencia-subtitulo'>{proyecto}</h2>
-                <p className='experiencia-texto'>Empresa:  {empresa}</p>
+                <p className='experiencia-texto'>{t("experience.company")}:  {empresa}</p>
                 <p className='experiencia-texto'>{skills}</p>
             </div>
 
             <div>
-                <Link to={`/${link}`} className='experiencia-link'>Abrir</Link>
+                <Link to={`/${link}`} className='experiencia-link'>{t("experience.boton")}</Link>
 
             </div>
 

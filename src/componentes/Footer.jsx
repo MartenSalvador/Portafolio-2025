@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import { FaSquareGithub, FaLinkedin  } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa";
-import '../estilos/Footer.css'
+import '../estilos/Footer.css';
+import { useTranslation } from "react-i18next";
+
 
 function Footer(){
+    const { t } = useTranslation();
    return(
         <footer>
             <div className="container-footer">
                 <div>
-                    <Link className="link-footer" to="/">Inicio</Link>
+                    <Link className="link-footer" to="/">{t("nav.home")}</Link>
                 </div>
                 <p className="p-link"><FaRegCopyright/> Martin Salvador - Frontend Developer</p>
                 <div className="redes-footer">

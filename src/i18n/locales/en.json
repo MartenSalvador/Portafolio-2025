@@ -1,0 +1,58 @@
+{
+    "home": {
+        "subtitle": "Frontend Developer",
+        "description": "I turn ideas into clear, effective interfaces",
+        "btnProjects": "View Projects",
+        "btnContact": "Contact"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "I’m Martín Salvador, a programming enthusiast. I began studying on my own, initially as a hobby, learning how to build websites. Little by little, I gained more knowledge until I decided to fully dedicate myself to this field. I hold certificates from several courses and bootcamps, with advanced skills in React, HTML5, CSS3, JavaScript, SQL, GitHub, and Figma. I have all the tools needed to create responsive websites and web applications tailored to your needs. Don’t hesitate to reach out—if you have an idea, I can bring it to life"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About Me",
+        "projects": "Experience",
+        "studies": "Studies",
+        "contact": "Contact"
+    },
+    "studies": {
+        "title": "Studies"
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "social": {
+        "title": "Connect with me"
+    },
+    "contactForm": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+    },
+    "experience": {
+        "subtitle1": "Projects with companies",
+        "subtitle2": "Projects from courses and bootcamps",
+        "boton": "Open",
+        "fiambreria": "Corporate Page",
+        "Empresa": "Company",
+        "administrador": "Task Manager",
+        "troqueles": "Die Library",
+        "glosario": "German Glossary",
+        "numerosecreto": "Secret Number",
+        "encriptador": "Text Encriptor",
+        "ppt": "Rock, Paper, Scissors",
+        "org": "Role Organizer",
+        "company": "Company",
+        "descriptionFiambreria": "Website for an artisanal charcuterie shop. The owner wanted a simple page with a Home section summarizing some information about the business, a few photos of the shop, the location embedded with Google Maps, and above all, buttons and links leading to WhatsApp and Instagram. There is also a Contact section where all communication channels are available. The design was created together with the client, and the skills used were HTML, CSS, JavaScript, and React‑Vite. For hosting, the site was deployed on Firebase, taking advantage of its free tier since it’s a small local business.",
+        "descriptionAdministrador": "This app aims to streamline the task planning process for the hotel’s maintenance technician, who previously received assignments through paper notes and printed cards. The Task Manager is built with React‑Vite and allows users to manage tasks, mark them as completed, and delete them. It also includes a section that generates templates for all rooms, floor by floor, so the employee can check off each room as they finish. The application uses Firebase for data storage.",
+        "descriptionTroqueles": "This project aims to solve the organizational issues in the print shop regarding the dies used by the stamping and cutting machine. Since there are many dies and shelves full of them, this system optimizes both storage and searching when a specific die is needed. Another recurring problem was during the purchase of new dies: due to the disorganization, they often didn’t know the measurements of the dies they already had, leading to buying new ones with dimensions that already existed. Now, the company can verify stock before ordering new items. Initially, the project was developed solely with JavaScript, storing information locally. It has now been updated using React and connected to Firebase so the data can be saved online and the application can be accessed from any device, not just the local computer.",
+        "descriptionAluraflix": "Project developed during the Alura Latam bootcamp, where a web application was created to manage a list of movies and series. The application allows users to add new movies or series to the list, view details for each one, and delete those they no longer want. It is built with React and uses a simulated API for data storage.",
+        "descriptionGlosario": "Alura Latam challenge featuring a form where the user must enter the word in Spanish, the word in German, and a URL for the image. When clicking Submit, the data is stored in a JSON file on the server (using a simulated API) and a card is displayed showing the entered information. This allows anyone learning the language to manage their vocabulary progress. Additionally, the user can search for previously added cards using a search bar and can also delete them if they wish.",
+        "descriptionNumerosecreto": "Number‑guessing game developed at Alura, applying logic with JavaScript. The user must guess a secret number randomly generated between 1 and 10. They have a total of 3 attempts to guess the number. After each attempt, the game provides feedback indicating whether the entered number is too high, too low, or correct. If the user guesses the number within the 3 attempts, they win; otherwise, they lose and the secret number is revealed.",
+        "descriptionOrg": "Project designed to organize roles and responsibilities within a work team. The application allows users to create teams, assign roles and responsibilities to each team member, and manage the tasks associated with each role. It is built with JavaScript, HTML, and CSS. The application uses LocalStorage for data storage.",
+        "descriptionPpt": "The classic Rock, Paper, Scissors game developed at freeCodeCamp, where they provided the HTML and CSS base, and students implemented the logic using JavaScript to make the game work correctly. The game allows the user to choose between rock, paper, or scissors, and then generates a random choice for the computer. The result is displayed on screen, indicating whether the user won, lost, or tied. Additionally, the game keeps track of both the user’s score and the computer’s score.",
+        "descriptionEncriptador": "Alura Latam challenge where the user enters a text and the program encrypts it; likewise, if the user enters a text previously encrypted with this program, it can be decrypted. The program follows these encryption rules: ‘e’ becomes ‘enter’, ‘i’ becomes ‘imes’, ‘a’ becomes ‘ai’, ‘o’ becomes ‘ober’, and ‘u’ becomes ‘ufat’. Additionally, the program includes a button that allows the user to copy the encrypted or decrypted text to the clipboard."
+    }
+}

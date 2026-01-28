@@ -1,15 +1,16 @@
 import Header from "./Header";
 import Formacion from './Formacion';
-
+import { useTranslation } from "react-i18next";
 import '../estilos/Estudios.css';
 
 function Estudios(){
+    const { t } = useTranslation();
     return(
         <div className="estudios-container">
             <Header />
             <div className="estudios-contenido">
              <h1 className="contacto-titulo">
-                Estudios
+                {t("studies.title")}
             </h1>
             <div className="estudios-container-tarjetas">
             <a href="">

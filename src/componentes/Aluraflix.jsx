@@ -1,8 +1,11 @@
 import Header from "./Header";
 import Proyectos from "./Proyectos";
+import { useTranslation } from "react-i18next";
+
 
 
 function Aluraflix() {
+    const { t } = useTranslation();
     return (
         <div>
             <Header />
@@ -10,7 +13,7 @@ function Aluraflix() {
                 <Proyectos
                     titulo="Aluraflix"
                     empresa="Bootcamp Alura Latam"
-                    texto="Proyecto realizado en el bootcamp de Alura Latam, donde se desarrolla una aplicación web para gestionar una lista de películas y series. La aplicación permite a los usuarios agregar nuevas películas o series a la lista, ver detalles de cada una, y eliminar las que ya no desean. Está desarrollado con React y utiliza una API simulada para el almacenamiento de datos."
+                    texto={t("experience.descriptionAluraflix")}
                     deploy="https://aluraflix-martin.vercel.app/"
                     imagen="aluraflix"
                     repo="aluraflix.martin"

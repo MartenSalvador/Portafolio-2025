@@ -3,58 +3,61 @@ import Header from './Header'
 import '../estilos/Experiencia.css'
 import { Link } from "react-router-dom";
 import TarjetaProyecto from './TarjetaProyecto';
+import { useTranslation } from "react-i18next";
+
 
 function Experiencia(){
+    const { t } = useTranslation();
     return(
         <div>
         <Header />
         <div className='experiencia-container'>
-            <h1 className='experiencia-titulo'>Proyectos con empresas</h1>
+            <h1 className='experiencia-titulo'>{t("experience.subtitle1")}</h1>
             
             <div className='experiencia-empresas'>
                 <TarjetaProyecto 
                 empresa="El Carmelo charcutería"
                 skills="React, JavaScript, CSS, HTML"
-                proyecto="Página corporativa"
+                proyecto= {t("experience.fiambreria")}
                 link="fiambreria"
                 imagen="fiambreria"
                 />
                 <TarjetaProyecto 
                 empresa="Hotel The Niu Crusoe Bremen"
                 skills="React, JavaScript, CSS, HTML"
-                proyecto="Administrador de Tareas"
+                proyecto={t("experience.administrador")}
                 link="administrador"
                 imagen="hotel"
                 />
                 <TarjetaProyecto 
                 empresa="Imprenta Encabo SRL"
                 skills="React, JavaScript, CSS, HTML"
-                proyecto="Biblioteca de Troqueles"
+                proyecto={t("experience.troqueles")}
                 link="troqueles"
                 imagen="troqueles"
                 />
             </div>
 
-            <h1 className='experiencia-titulo'>Proyectos de cursos y bootcamps</h1>
+            <h1 className='experiencia-titulo'>{t("experience.subtitle2")}</h1>
             <div className='experiencia-empresas'>
                 <TarjetaProyecto 
                 empresa="Challene Alura Latam"
                 skills="JavaScript, CSS, HTML"
-                proyecto="Glosario de alemán"
+                proyecto={t("experience.glosario")}
                 link="glosario"
                 imagen="glosario"
                 />
                 <TarjetaProyecto 
                 empresa="Challene Alura Latam"
                 skills="JavaScript, CSS, HTML"
-                proyecto="Numero Secreto"
+                proyecto={t("experience.numerosecreto")}
                 link="numerosecreto"
                 imagen="numerosecreto"
                 />
                 <TarjetaProyecto 
                 empresa="Challene Alura Latam"
                 skills="JavaScript, CSS, HTML"
-                proyecto="Encriptador de textos"
+                proyecto={t("experience.encriptador")}
                 link="encriptador"
                 imagen="encriptador"
                 />
@@ -68,14 +71,14 @@ function Experiencia(){
                 <TarjetaProyecto 
                 empresa="Challene freeCodeCamp"
                 skills="JavaScript, CSS, HTML"
-                proyecto="Piedra, papel o tijeras"
+                proyecto={t("experience.ppt")}
                 link="ppt"
                 imagen="PPT"
                 />
                 <TarjetaProyecto 
                 empresa="Challene Alura Latam"
                 skills="JavaScript, CSS, HTML"
-                proyecto="Organizador de roles"
+                proyecto={t("experience.org")}
                 link="org"
                 imagen="org"
                 />

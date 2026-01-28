@@ -1,17 +1,20 @@
 
 import Header from "./Header";
 import Proyectos from "./Proyectos";
+import { useTranslation } from "react-i18next";
+
 
 
 function Numerosecreto() {
+    const { t } = useTranslation();
     return (
         <div>
             <Header />
             <div className="experiencia-container">
                 <Proyectos
-                    titulo="Juego de adivinar el número secreto"
+                    titulo={t("experience.numerosecreto")}
                     empresa="Challenge Alura Latam"
-                    texto="Juego de adivinar el número realizado en Alura, aplicando lógica con JavaScript. El usuario debe adivinar un número secreto generado aleatoriamente entre 1 y 10. Tiene un total de 3 intentos para acertar el número. Después de cada intento, el juego proporciona retroalimentación indicando si el número ingresado es demasiado alto, demasiado bajo o correcto. Si el usuario adivina el número dentro de los 10 intentos, gana el juego; de lo contrario, pierde y se revela el número secreto."
+                    texto={t("experience.descriptionNumerosecreto")}
                     deploy="https://martensalvador.github.io/juego-adivinar-numero/"
                     imagen="numerosecreto"
                     repo="juego-adivinar-numero"
