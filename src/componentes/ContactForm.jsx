@@ -9,7 +9,7 @@ function ContactForm() {
   if (state.succeeded) {
       return (
         <div className='container-mensaje-enviado'>
-            <p>Mensaje enviado</p>
+            <p style={{color: "black", fontSize: "3rem"}}>¡Mensaje enviado con éxito!</p>
             <Link className="link-footer boton-mensaje-enviado" to="/">Inicio</Link>
         </div>
       );
