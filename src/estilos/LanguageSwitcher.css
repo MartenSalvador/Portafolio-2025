@@ -1,0 +1,23 @@
+.language-switcher{
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: system-ui, apple color emoji, Segoe UI Emoji, Noto Color Emoji;
+   transition: transform 0.3s ease;
+    display: inline-block;
+    
+}
+.language-switcher:hover{
+    color: #344862;
+    transform: scale(1.05);
+    border: 1px solid #344862;
+    background-color: rgb(249, 236, 236); 
+    text-shadow:  none;
+
+}
+
+@media (max-width: 720px) {
+    .language-switcher {
+        font-size: 12px;
+    }
+}

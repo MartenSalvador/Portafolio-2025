@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import '../estilos/LanguageSwitcher.css';
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
 
@@ -13,13 +13,7 @@ function LanguageSwitcher() {
     <button
       onClick={changeLang}
       aria-label="Change language"
-      style={{
-        border: "none",
-        cursor: "pointer",
-        fontSize: "1.4rem",
-        
-        fontFamily: "system-ui, apple color emoji, Segoe UI Emoji, Noto Color Emoji"
-      }}
+      className="language-switcher"
     >
       {i18n.language === "es" ? "🇬🇧" : "🇪🇸"}
     </button>
