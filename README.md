@@ -1,20 +1,71 @@
-# React + Vite
+# Martin Salvador – Portfolio 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio developed to showcase my work as a Frontend Developer, including real projects currently in use and personal creations.
 
-Currently, two official plugins are available:
+🌐 **Live demo:**  
+👉 https://martinsalvadorportafolio.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 About the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio was built to present my experience, skills, and projects in a clear and professional way.  
+It is fully responsive and available in **Spanish and English**.
+
+---
+
+## ✨ Features
+
+- 🌍 Language switcher (ES / EN)
+- 📱 Fully responsive design
+- ⚛️ Built with React + Vite
+- ☁️ Deployed on Firebase Hosting
+- 📂 Real-world projects showcased
+- 📬 Contact form
+
+---
+
+## 🛠️ Technologies used
+
+- React 19
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- i18next (internationalization)
+- Firebase Hosting
+- Git & GitHub
+
+---
+
+## ▶️ Run locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MartenSalvador/martin-salvador-portafolio.git
+
+Install dependencies:
+
+npm install
 
 
+Start development server:
+
+npm run dev
 
 
+Build for production:
 
-importante!!!!!
-firebase deploy --only "hosting,database"
-para deployar nuevas versiones usar: firebase deploy --only "hosting,database"(porque firebase deploy solo deja error por la dataconect que es paga)
+npm run build
+
+👤 Author
+
+Martin Salvador
+Frontend Developer
+
+🌐 Portfolio: https://martinsalvadorportafolio.web.app/
+
+💼 GitHub: https://github.com/MartenSalvador
+
+⭐ If you like this project, feel free to star the repository!
