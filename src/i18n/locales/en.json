@@ -29,7 +29,8 @@
         "name": "Name",
         "email": "Email",
         "message": "Message",
-        "send": "Send"
+        "send": "Send",
+        "messageSent": "Message sent successfully!"
     },
     "experience": {
         "subtitle1": "Projects with companies",

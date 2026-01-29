@@ -29,7 +29,8 @@
         "name": "Nombre",
         "email": "Correo Electrónico",
         "message": "Mensaje",
-        "send": "Enviar"
+        "send": "Enviar",
+        "messageSent": "¡Mensaje enviado con éxito!"
     },
     "experience": {
         "subtitle1": "Projectos con empresas",
