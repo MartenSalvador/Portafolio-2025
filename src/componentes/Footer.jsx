@@ -11,7 +11,7 @@ function Footer(){
         <footer>
             <div className="container-footer">
                 <div>
-                    <Link className="link-footer" to="/">{t("nav.home")}</Link>
+                <Link className="gradient-text logo-header" to="/">MS</Link>
                 </div>
                 <p className="p-link"><FaRegCopyright/> Martin Salvador - Frontend Developer</p>
                 <div className="redes-footer">
