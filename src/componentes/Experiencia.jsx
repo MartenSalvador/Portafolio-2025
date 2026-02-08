@@ -12,7 +12,7 @@ function Experiencia(){
         <div>
         <div className='experiencia-container'>
             <h1 className='experiencia-titulo'>{t("experience.subtitle1")}</h1>
-                        <div className="barra"></div>
+            <div className="barra"></div>
 
             <div className='experiencia-empresas'>
                 <TarjetaProyecto 

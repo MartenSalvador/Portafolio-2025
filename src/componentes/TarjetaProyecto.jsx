@@ -41,7 +41,8 @@ function TarjetaProyecto({ empresa, skills, proyecto, link, imagen }) {
             </div>
 
             <div>
-                <Link to={`/${link}`} className='experiencia-link'>{t("experience.boton")}</Link>
+                <Link to={`/${link}`} className='experiencia-link' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                >{t("experience.boton")}</Link>
 
             </div>
 
