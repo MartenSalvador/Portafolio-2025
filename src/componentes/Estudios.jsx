@@ -7,7 +7,6 @@ function Estudios(){
     const { t } = useTranslation();
     return(
         <div className="estudios-container">
-            <Header />
             <div className="estudios-contenido">
              <h1 className="contacto-titulo">
                 {t("studies.title")}

@@ -17,11 +17,13 @@ import Aluraflix from './componentes/Aluraflix';
 import Ppt from './componentes/Ppt';
 import Org from './componentes/Org';
 import Fiambreria from './componentes/Fiambreria'
+import Header from './componentes/Header';
 
 function App() {
 
   return (
     <Router >
+      <Header />
 
       <div className="layout">
 

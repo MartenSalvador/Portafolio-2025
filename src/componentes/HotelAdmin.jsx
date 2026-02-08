@@ -9,7 +9,6 @@ function HotelAdmin() {
   const { t } = useTranslation();
   return (
     <div>
-      <Header />
       <div className="experiencia-container">
         <Proyectos
           titulo={t("experience.administrador")}

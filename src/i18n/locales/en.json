@@ -1,13 +1,21 @@
 {
     "home": {
         "subtitle": "Frontend Developer",
-        "description": "I turn ideas into clear, effective interfaces",
+        "description": "I turn ideas into clear, effective interfaces. Passionate about creating exceptional web experiences.",
         "btnProjects": "View Projects",
         "btnContact": "Contact"
     },
     "about": {
         "title": "About Me",
-        "description": "I’m Martín Salvador, a programming enthusiast. I began studying on my own, initially as a hobby, learning how to build websites. Little by little, I gained more knowledge until I decided to fully dedicate myself to this field. I hold certificates from several courses and bootcamps, with advanced skills in React, HTML5, CSS3, JavaScript, SQL, GitHub, and Figma. I have all the tools needed to create responsive websites and web applications tailored to your needs. Don’t hesitate to reach out—if you have an idea, I can bring it to life"
+        "description1": "Hi! I’m Martín Salvador, a front-end developer passionate about creating modern, functional web experiences. I specialize in turning complex ideas into intuitive and engaging interfaces.",
+        "description2":"With experience in technologies such as React, JavaScript, and responsive design, I focus on building web applications that not only look good but also deliver an exceptional user experience.",
+        "description3":"I’m always learning new technologies and best practices to stay up to date in this constantly evolving field.",
+        "infoCard1Title": "Clean Design",
+        "infoCard1Text": "Maintainable and scalable code",
+        "infoCard2Title": "Continuous Learning",
+        "infoCard2Text": "Always exploring new technologies",
+        "infoCard3Title": "Passion for Detail",
+        "infoCard3Text": "Every Pixel counts in the experience"
     },
     "nav": {
         "home": "Home",

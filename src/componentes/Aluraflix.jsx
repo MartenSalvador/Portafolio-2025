@@ -8,7 +8,6 @@ function Aluraflix() {
     const { t } = useTranslation();
     return (
         <div>
-            <Header />
             <div className="experiencia-container">
                 <Proyectos
                     titulo="Aluraflix"

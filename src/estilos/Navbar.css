@@ -1,58 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.nav-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 5px 40px;
-    margin-top: 0;
-    width: 100%;
-    gap: 50px;
+/* ===== Layout base ===== */
 
+.nav-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  padding: 5px 40px;
+  flex-direction: column;
 }
 
-.link-nav{
-    color: #111;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: "Inter" ;
-    transition: transform 0.3s ease;
-    display: inline-block;
-
-
-
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.link-nav:hover{
-    color: #344862;
-    transform: scale(1.2);
-    text-shadow:  none;
+/* ===== Logo ===== */
 
+.logo-header {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
+/* ===== Desktop links ===== */
+
+.nav-links.desktop {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* ===== Links ===== */
+
+.link-nav {
+  color: #111;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.link-nav:hover {
+  color: #344862;
+  transform: scale(1.2);
+}
+
+/* ===== Hamburger ===== */
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #111;
+}
+
+/* ===== Mobile menu ===== */
+
+.mobile-menu {
+  display: none;
+}
+
+/* ===== Responsive ===== */
 
 @media (max-width: 768px) {
-    .nav-container{
-        flex-wrap: wrap;
-        gap: 20px;
-        padding: 5px 20px;
-    }
+  .nav-container {
+    padding: 5px 20px;
+  }
 
-    .link-nav{
-        font-size: 14px;
-    }
+  .nav-links.desktop {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: white;
+    width: 100%;
+  }
+
+  .link-nav {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 450px) {
-    .nav-container{
-        gap: 10px;
-        padding: 5px 10px;
-    }
+  .nav-container {
+    padding: 5px 10px;
+  }
 
-    .link-nav{
-        font-size: 12px;
-        margin: 0;
-        padding: 0;
-    }
+  .link-nav {
+    font-size: 12px;
+  }
 }

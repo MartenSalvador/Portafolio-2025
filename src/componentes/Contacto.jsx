@@ -8,7 +8,6 @@ function Contacto(){
   const { t } = useTranslation();
     return(
         <div className='contacto-container'>
-          <Header />
           <div className='contacto-container-form'>
             <h1 className='contacto-titulo'>{t("contact.title")}</h1>
             <ContactForm />

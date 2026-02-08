@@ -9,8 +9,10 @@ function Home() {
   return ( 
     
     <div className='home-container'  >
-      <Header />
-      <div className='home-contenido'>
+        <div className='home-contenido'>
+          
+           
+         
         <h1 className='home-titulo'>Martín Salvador</h1>
         <h2 className='home-subtitulo'>Frontend Developer</h2>
         <p className='home-descripcion'>{t("home.description")}</p>
