@@ -1,4 +1,4 @@
-.proyecto-container{
+.proyecto-container {
     border: 1px solid #2c2c2c;
     border-radius: 10px;
     padding: 5px;
@@ -7,49 +7,57 @@
     align-items: center;
     margin: 20px;
     
+
+
 }
 
 
-.proyecto-li{
+.proyecto-li {
     display: flex;
     color: #000;
     flex-direction: column;
-    
     max-width: 700px;
+        
+
 }
 
-.proyecto-tarjeta-container-img-dploy{
+.proyecto-tarjeta-container-img-dploy {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px;    
+
 }
-.minicontainer{
+
+.minicontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.botonera-proyectos{
+
+.botonera-proyectos {
     display: flex;
     gap: 30px;
 }
-.proyecto-empresa{
+
+.proyecto-empresa {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     padding: 0;
     color: #000;
 }
-.proyecto-descripcion{
+
+.proyecto-descripcion {
     font-size: 16px;
     margin: 0;
     color: #000;
     text-align: justify;
 }
 
-.proyecto-titulo{
+.proyecto-titulo {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
@@ -59,7 +67,7 @@
     margin-bottom: 10px;
 }
 
-.proyecto-boton{
+.proyecto-boton {
     background-color: #000;
     color: white;
     border: none;
@@ -73,18 +81,20 @@
     width: 120px;
     text-align: center;
 }
-.deploy{
+
+.deploy {
     background-color: #fff;
     border: 1px solid #000;
     color: #000;
 }
-.proyecto-boton:hover{
+
+.proyecto-boton:hover {
     background-color: #1E90FF;
     transform: scale(1.05);
 }
 
-.proyecto-imagen{
-   
+.proyecto-imagen {
+
     width: 500px;
     margin-top: 15px;
 }
@@ -100,7 +110,7 @@ hover #A6FF00
 
 
 @media (max-width: 500px) {
-    .proyecto-li{
+    .proyecto-li {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -109,11 +119,37 @@ hover #A6FF00
     .proyecto-tarjeta-container-img-dploy {
         padding: 10px;
     }
-    .proyecto-tarjeta-container{
+
+    .proyecto-tarjeta-container {
         width: 300px;
     }
-    .proyecto-imagen{
-   
-   width: 300px;
+
+    .proyecto-imagen {
+
+        width: 300px;
+    }
 }
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
